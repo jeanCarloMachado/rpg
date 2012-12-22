@@ -1,0 +1,6 @@
+This file contains rules how to code a project using System Framework C++
+
+The hole system is coded in english, includin comments
+All the classes should contain it's respective header file
+All words included $SIGLAS should have the first letter UPPERCASE and the following  in downcase
+
