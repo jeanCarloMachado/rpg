@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"plug",
+				"pluginsCfg"
+			],
+			[
 				"pro",
 				"product"
 			],
@@ -204,37 +208,18 @@
 	"buffers":
 	[
 		{
-			"contents": "",
+			"file": "Application.h",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 1071,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/jean/.config/sublime-text-2/Packages/User/snippet_cgetset.sublime-snippet",
+			"file": "Application.cpp",
 			"settings":
 			{
-				"buffer_size": 194,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "#include <string>\n\n#ifndef SYSError\n#define SYSError\n\nusing namespace std;\n\nnamespace System\n{\n\n	class Error \n	{\n	public:\n\n		string getString()\n		{\n			return this->nome;\n		}\n		\n		void setString(string nome)\n		{\n			this->nome = nome;\n		}\n			\n			\n		\n	private:\n		string message;\n\n	\n	};\n}\n\n#endif",
-			"file": "System/Error/Error.h",
-			"file_size": 297,
-			"file_write_time": 1356202905000000,
-			"settings":
-			{
-				"buffer_size": 292,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/jean/.config/sublime-text-2/Packages/User/getSet.sublime-snippet",
-			"settings":
-			{
-				"buffer_size": 540,
+				"buffer_size": 6044,
 				"line_ending": "Unix"
 			}
 		}
@@ -250,7 +235,7 @@
 				":w - Save"
 			]
 		],
-		"width": 435.0
+		"width": 480.0
 	},
 	"console":
 	{
@@ -267,134 +252,134 @@
 	},
 	"file_history":
 	[
-		"/home/jean/.config/sublime-text-2/Packages/User/getSet.sublime-snippet",
-		"/home/jean/.config/sublime-text-2/Packages/User/snippet_cgetset.sublime-snippet",
-		"/home/jean/projects/rpcOgre/main.cpp",
-		"/home/jean/Dropbox/sublime32/homeConfig/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/jean/projects/rpg/resources.cfg",
+		"/home/jean/projects/rpg/Makefile.am",
+		"/home/jean/projects/rpg/main.cpp",
+		"/home/jean/projects/oldRPG/main.cpp",
+		"/home/jean/projects/oldRPG/Makefile",
+		"/home/jean/projects/codeStudy/ogre/common/BaseApplication.cpp",
+		"/home/jean/projects/rpg/Simulation.cpp",
+		"/home/jean/projects/rpg/Simulation.h",
+		"/home/jean/projects/rpg/Input.cpp",
+		"/home/jean/projects/rpg/Input.h",
+		"/home/jean/projects/rpg/BasicTutorial6.cpp",
+		"/home/jean/projects/rpg/BasicTutorial6.h",
+		"/home/jean/projects/rpg/.deps/Application.h[",
+		"/home/jean/projects/rpg/Application.cpp",
+		"/home/jean/projects/rpg/Application.h",
+		"/home/jean/projects/codeStudy/ogre/common/BaseApplication.h",
+		"/home/jean/projects/rpg/Makefile",
+		"/home/jean/projects/rpg/extended/System/Modules/Ogre/ControllerAbstract.cpp",
+		"/home/jean/projects/rpg/extended/main.cpp",
+		"/home/jean/projects/rpg/simulation.h",
+		"/home/jean/projects/rpg/extended/input.h",
+		"/home/jean/projects/rpg/input.h",
+		"/home/jean/projects/rpg/input.cpp",
+		"/home/jean/projects/rpg/simulation.cpp",
+		"/home/jean/projects/rpg/extended/Application/Modules/Main/ControllerDefault.h",
+		"/home/jean/projects/rpg/extended/System/Modules/Ogre/ControllerAbstract.h",
+		"/home/jean/projects/rpg/System/Modules/Ogre/ControllerAbstract.h",
+		"/home/jean/projects/rpg/System/Modules/Ogre/ControllerAbstract.cpp",
+		"/home/jean/projects/rpg/Application/Modules/Main/ControllerDefault.h",
+		"/home/jean/projects/rpg/configure.ac",
+		"/home/jean/projects/rpg/bootstrap",
+		"/home/jean/projects/codeStudy/ogre/intermediate/t4/Makefile.am",
+		"/home/jean/projects/codeStudy/ogre/common/plugins.cfg",
+		"/home/jean/projects/codeStudy/ogre/common/ogre.cfg",
+		"/home/jean/projects/codeStudy/ogre/common/Makefile.am",
+		"/home/jean/projects/codeStudy/ogre/common/configure.ac",
+		"/home/jean/projects/codeStudy/ogre/common/bootstrap",
+		"/home/jean/projects/codeStudy/ogre/common/resources.cfg",
+		"/home/jean/projects/codeStudy/ogre/intermediate/t2/BaseApplication.cpp",
+		"/home/jean/projects/codeStudy/ogre/intermediate/t2/BaseApplication.h",
+		"/home/jean/projects/rpg/Application/Modules/Main/ControllerBase.h",
+		"/home/jean/projects/codeStudy/ogre/intermediate/t2/ITutorial02.h",
+		"/home/jean/projects/rpg/Application/Modules/Main/ControllerDefault.cpp",
+		"/home/jean/projects/rpg/System/Modules/Ogre/Application.h",
+		"/home/jean/projects/rpg/Application/Modules/Main/RouterMgr.h",
+		"/home/jean/projects/rpg/Application/Modules/Main/RouterController.cpp",
+		"/home/jean/projects/rpg/Application/Modules/Main/RouterController.h",
+		"/home/jean/projects/rpg/Application/Modules/Main/RouterView.cpp",
+		"/home/jean/projects/rpg/Application/Modules/Main/RouterView.h",
+		"/home/jean/projects/rpg/Application/Modules/Main/BaseController.h",
+		"/home/jean/projects/rpg/System/Router/RouterMgrAbstract.h",
+		"/home/jean/projects/rpg/System/Modules/Ogre/RouterMgr.h",
+		"/home/jean/projects/rpg/Application/Modules/Main/RouterMgr.cpp",
+		"/home/jean/projects/rpg/System/Modules/Ogre/RouterMgr.cpp",
+		"/home/jean/projects/rpg/System/Router/RouterViewAbstract.h",
+		"/home/jean/projects/rpg/System/Router/RouterViewAbstract.cpp",
+		"/home/jean/projects/rpg/Application/Modules/Main/Bootstrap.h",
+		"/home/jean/projects/rpg/Application/Modules/Main/Bootstrap.cpp",
+		"/home/jean/projects/rpg/System/Mvc/ControllerAbstract.h",
+		"/home/jean/projects/rpg/System/Router/RouterControllerAbstract.h",
+		"/home/jean/projects/rpg/Application/Modules/OgrePrototype1/RouterMgr.cpp",
+		"/home/jean/projects/rpg/System/Mvc/ControllerAbstract.cpp",
+		"/home/jean/projects/codeStudy/ogre/intermediate/t7/BaseApplication.cpp",
+		"/home/jean/projects/rpg/System/Modules/Ogre/RouterController.h",
+		"/home/jean/projects/rpg/Application/Modules/OgrePrototype1/RouterController.cpp",
+		"/home/jean/projects/rpg/Application/Modules/OgrePrototype1/RouterController.h",
+		"/home/jean/projects/codeStudy/ogre/intermediate/t7/BaseApplication.h",
+		"/home/jean/projects/codeStudy/ogre/intermediate/t6",
+		"/home/jean/projects/codeStudy/ogre/intermediate/t6/Makefile.am",
+		"/home/jean/projects/codeStudy/ogre/intermediate/t7/IntermediateTutorial7.h",
+		"/home/jean/projects/codeStudy/ogre/intermediate/t7/IntermediateTutorial7.cpp",
+		"/home/jean/projects/codeStudy/ogre/intermediate/t7/Makefile.am",
+		"/home/jean/projects/codeStudy/ogre/intermediate/t6/IntermediateTutorial6.cpp",
+		"/home/jean/projects/codeStudy/ogre/intermediate/t6/IntermediateTutorial6.h",
+		"/home/jean/projects/codeStudy/ogre/intermediate/t4/IntermediateTutorial4.cpp",
+		"/home/jean/projects/codeStudy/ogre/intermediate/t4/resources.cfg",
+		"/home/jean/projects/codeStudy/ogre/intermediate/t4/IntermediateTutorial4.h",
+		"/home/jean/projects/rpg/System/Application/ApplicationAbstract.cpp",
+		"/home/jean/projects/codeStudy/ogre/common/cegui/Makefile.am",
+		"/home/jean/projects/codeStudy/ogre/intermediate/t5/IntermediateTutorial5.h",
+		"/home/jean/projects/codeStudy/ogre/intermediate/t5/IntermediateTutorial5.cpp",
+		"/home/jean/projects/codeStudy/ogre/intermediate/t5/Makefile.am",
+		"/media/data/projects/codeStudy/ogre/intermediate/t4/tmp/resources.cfg",
+		"/home/jean/projects/codeStudy/ogre/intermediate/t4/configure.ac",
+		"/home/jean/projects/codeStudy/ogre/common/cegui/configure.ac",
+		"/home/jean/projects/codeStudy/ogre/intermediate/t1/Makefile.am",
+		"/home/jean/projects/codeStudy/ogre/intermediate/t1/BaseApplication.h",
+		"/home/jean/projects/codeStudy/ogre/intermediate/t1/ITutorial01.cpp",
+		"/home/jean/projects/codeStudy/ogre/intermediate/t4/SelectionBox.h",
+		"/home/jean/projects/codeStudy/ogre/intermediate/t4/SelectionBox.cpp",
+		"/home/jean/projects/codeStudy/ogre/intermediate/t1/ITutorial01.h",
+		"/usr/src/CEGUI-0.7.1/cegui/include/CEGUIString.h",
+		"/home/jean/projects/study/ogre/intermediate/t1/ITutorial01.h",
+		"/home/jean/projects/study/ogre/intermediate/t1/ITutorial01.cpp",
+		"/home/jean/projects/study/ogre/intermediate/t1/Makefile.am",
+		"/home/jean/projects/study/ogre/intermediate/t1/BaseApplication.h",
+		"/home/jean/projects/study/ogre/intermediate/t4/IntermediateTutorial4.h",
+		"/home/jean/projects/study/ogre/intermediate/t4/IntermediateTutorial4.cpp",
+		"/home/jean/projects/study/ogre/intermediate/t4/SelectionBox.h",
+		"/home/jean/projects/study/ogre/intermediate/t4/SelectionBox.cpp",
+		"/home/jean/projects/study/ogre/intermediate/t4/Makefile.am",
+		"/home/jean/projects/rpg/System/Application/ApplicationInterface.h",
+		"/home/jean/projects/rpg/System/Modules/Ogre/Bootstrap.cpp",
+		"/home/jean/projects/rpg/System/Application/ApplicationInterface.cpp",
+		"/home/jean/projects/rpg/System/Application/Bootstrap/BootstrapInterface.h",
+		"/home/jean/projects/rpg/System/Modules/Ogre/Bootstrap.h",
+		"/home/jean/projects/rpg/System/Modules/Ogre/Application.cpp",
 		"/home/jean/projects/rpg/System/Application/ApplicationMgr.h",
 		"/home/jean/projects/rpg/System/Application/ApplicationAbstract.h",
-		"/home/jean/projects/rpg/System/Application/ApplicationAbstract.cpp",
-		"/home/jean/projects/rpg/DEVELOPER",
+		"/home/jean/projects/rpg/System/Application/Bootstrap/BootstrapAbstract.cpp",
+		"/home/jean/projects/rpg/System/Application/Bootstrap/BootstrapAbstract.h",
+		"/home/jean/projects/rpg/ltmain.sh",
+		"/home/jean/projects/rpg/System/Modules/Cmd/Application.cpp",
+		"/home/jean/projects/rpg/System/Modules/Cmd/Application.h",
 		"/home/jean/projects/rpg/System/Error/Error.h",
-		"/home/jean/projects/rpg/System/Error/Error.cpp",
-		"/home/jean/projects/rpg/main.cpp",
-		"/home/jean/projects/rpg/Makefile.am",
-		"/home/jean/Dropbox/sublime32/homeConfig/sublime-text-2/Packages/User/snippet_cgetset.sublime-snippet",
-		"/home/jean/projects/rpg/System/Application/ApplicationMgr.cpp",
-		"/home/jean/projects/rpg/System/Error/Errorc.pp",
-		"/home/jean/projects/rpg/System/utils.cpp",
-		"/home/jean/projects/rpg/Library/System/Application/ApplicationAbstract.cpp",
-		"/home/jean/projects/rpg/Library/System/Application/ApplicationAbstract.h",
-		"/home/jean/projects/rpg/Library/System/Application/ApplicationMgr.h",
-		"/home/jean/projects/rpg/Library/System/Application/ApplicationMgr.cpp",
-		"/home/jean/projects/rpg/Library/System/utils.cpp",
-		"/home/jean/projects/rpg/Library/DEVELOPER",
-		"/home/jean/projects/rpg/Library/System/util.cpp",
-		"/home/jean/projects/rpg/Library/ApplicationAbstract.h",
-		"/home/jean/projects/rpg/Library/System/ApplicationAbstract.cpp",
-		"/media/cubWS/ikro/includes/View/restrito/pedido/detalhes.php",
-		"/media/cubWS/ikro/sync_classes/WEB_ONDE_COMPRAR.php",
-		"/media/cubWS/ikro/sync_classes/config.php",
-		"/media/cubWS/ikro/UpLoadSiteIkro/web_onde_comprar.txt",
-		"/media/cubWS/ikro/includes/Controller/pedido_Controller.php",
-		"/media/cubWS/ikro/includes/Controller/ack/ACKpedidos_Controller.php",
-		"/media/cubWS/ikro/includes/Controller/helpers/GenerateCSVPedidos.php",
-		"/media/cubWS/ikro/includes/View/restrito/pedido/novo_p2.php",
-		"/media/cubWS/ikro/includes/bootstrap.php",
-		"/media/cubWS/ikro/sync_classes/WEB_CATALOGO_PRODUTO.php",
-		"/media/cubWS/ikro/CHANGESDB.txt",
-		"/media/cubWS/ikro/includes/languages.php",
-		"/media/cubWS/ikro/includes/View/restrito/pedido/detalhes.old.php",
-		"/media/cubWS/vanessaguerra/includes/Controller/projetos_Controller.php",
-		"/media/cubWS/vanessaguerra/includes/library/1.0/Reuse/ACK/Model/Institutional.php",
-		"/media/cubWS/vanessaguerra/novo_json.php",
-		"/media/cubWS/vanessaguerra/includes/View/ack/_header.php",
-		"/media/cubWS/vanessaguerra/includes/Controller/escritorio_Controller.php",
-		"/media/cubWS/vanessaguerra/includes/Controller/ack/ACKinstitucional_Controller.php",
-		"/media/cubWS/vanessaguerra/includes/View/front/layout/_layout.php",
-		"/media/cubWS/vanessaguerra/includes/Controller/institucional_Controller.php",
-		"/media/cubWS/vanessaguerra/includes/library/1.0/System/Helper/ChildSelector.php",
-		"/media/cubWS/vanessaguerra/includes/library/1.0/System/Autoloader/Loader/Library.php",
-		"/media/cubWS/vanessaguerra/includes/Controller/institutional_Controller.php",
-		"/media/cubWS/vanessaguerra/includes/Controller/home_Controller.php",
-		"/media/cubWS/vanessaguerra/includes/library/1.5/System/utils.php",
-		"/media/cubWS/vanessaguerra/includes/library/1.0/System/utils.php",
-		"/home/jean/Downloads/pedidos(7).txt",
-		"/home/jean/Downloads/pedidos(8).txt",
-		"/home/jean/Downloads/pedidos(11).txt",
-		"/media/cubWS/ikro/includes/View/ack/pedido.php",
-		"/home/jean/Downloads/pedidos(10).txt",
-		"/tmp/pedidos-7.txt",
-		"/media/cubWS/ikro/includes/View/ack/pedidos.php",
-		"/tmp/pedidos-4.txt",
-		"/tmp/pedidos-3.txt",
-		"/tmp/pedidos-2.txt",
-		"/media/cubWS/ikro/includes/Model/Pedido.php",
-		"/media/cubWS/ikro/includes/Controller/ack/ACKajax_Controller.php",
-		"/media/cubWS/ikro/includes/library/1.5/Reuse/ACK/Model/User.php",
-		"/media/cubWS/ikro/includes/Controller/home_Controller.php",
-		"/media/cubWS/ikro/includes/Model/Alternador.php",
-		"/run/user/jean/gvfs/smb-share:server=servidor,share=webserver/ikro/considerations",
-		"/home/jean/projects/cub/ikro/includes/Model/Pedido.php",
-		"/home/jean/projects/cub/ikro/includes/Controller/montadoras_Controller.php",
-		"/home/jean/projects/cub/ikro/css/ack/ack.style.css",
-		"/home/jean/projects/cub/ikro.OD/includes/View/layout/_defaultIncludes.php",
-		"/home/jean/projects/cub/ikro/includes/View/layout/_defaultIncludes.php",
-		"/home/jean/projects/cub/ikro/includes/View/publico/home/index.php",
-		"/home/jean/projects/cub/ikro/includes/Controller/pedido_Controller.php",
-		"/run/user/jean/gvfs/smb-share:server=servidor,share=webserver/ikro/includes/View/layout/_defaultIncludes.php",
-		"/media/jean/jeanData/ikronew/ikro/includes/View/layout/_defaultIncludes.php",
-		"/media/jean/jeanData/ikronew/ikro.OLD/includes/View/layout/_defaultIncludes.php",
-		"/media/cubWS/ikro/includes/Controller/produtos_Controller.php",
-		"/media/cubWS/ikro.OLD/css/ack/ack.style.css",
-		"/home/jean/projects/cub/ikro/includes/WEB_CATALOGO_PRODUTO.TXT",
-		"/home/jean/projects/cub/ikro/sync_classes/config.php",
-		"/home/jean/projects/cub/ikro/includes/Controller/ack/ACKprodutos_Controller.php",
-		"/home/jean/projects/cub/ikro/includes/View/ack/produtos_categorias.php",
-		"/home/jean/projects/cub/ikro/includes/Tests/PedidosTest.php",
-		"/home/jean/projects/cub/ikro/includes/library/1.5/System/Mail/Mail.php",
-		"/home/jean/projects/cub/ikro/includes/View/emails/pedido/email.php",
-		"/home/jean/projects/cub/ikro/includes/Controller/test_Controller.php",
-		"/home/jean/projects/cub/ikro/includes/View/restrito/pedido/novo_p2.php",
-		"/home/jean/projects/cub/ikro/imagens/email/pedido",
-		"/home/jean/projects/cub/ikro/includes/Controller/teste_Controller.php",
-		"/home/jean/projects/cub/ikro/includes/bootstrap.php",
-		"/home/jean/projects/cub/giulian2/includes/Controller/test_Controller.php",
-		"/home/jean/projects/cub/giulian2/includes/Tests/BudgetTest.php",
-		"/home/jean/projects/cub/ikro/includes/Model/Payment.php",
-		"/home/jean/projects/cub/ikro/includes/Model/PaymentConditions.php",
-		"/home/jean/projects/cub/ikro/includes/View/emails/pedido/email.html",
-		"/home/jean/projects/cub/ikro/includes/View/publico/produtos/detalhes.php",
-		"/home/jean/projects/cub/ikro/includes/View/restrito/pedido/novo_p1.php",
-		"/home/jean/projects/cub/ikro/includes/View/restrito/pedido/imprimir.php",
-		"/home/jean/projects/cub/ikro/includes/library/1.5/System/Object/Money.php",
-		"/home/jean/projects/cub/ikro/UpLoadSiteIkro/web_catalogo_produto.txt",
-		"/home/jean/projects/cub/ikro/includes/library/1.5/Reuse/ACK/Model/Cities.php",
-		"/home/jean/projects/cub/ikro/includes/library/1.5/Reuse/ACK/Model/Country.php",
-		"/home/jean/Dropbox/sublime32/homeConfig/sublime-text-2/Packages/Default/Preferences.sublime-settings",
-		"/home/jean/projects/cub/ikro/sync_classes/WEB_CATALOGO_PRODUTO.php",
-		"/home/jean/projects/cub/ikro/includes/library/1.5/System/Db/Table/Abstract.php",
-		"/home/jean/projects/cub/ikro/CHANGESDB.txt",
-		"/media/cubWS/ikro/UpLoadSiteIkro/web_catalogo_produto.txt",
-		"/media/cubWS/ikro/includes/WEB_CATALOGO_PRODUTO.TXT",
-		"/media/cubWS/ikro/sync_classes/WEB_DISTRIBUIDOR_REPRESENT.php",
-		"/media/cubWS/ikro/includes/Controller/ack/ACKfeiras_Controller.php",
-		"/media/cubWS/ikro/includes/Controller/helpers/ContatoEmail.php",
-		"/media/cubWS/ikro/includes/Controller/helpers/SearchProduct_Abstract.php",
-		"/media/cubWS/ikro/includes/Controller/ack/ACKdestaques_Controller.php",
-		"/media/cubWS/ikro/includes/Controller/ack/ACKgourmetreceitas_Controller.php",
-		"/run/user/jean/gvfs/smb-share:server=servidor,share=webserver/ikro/.htaccess",
-		"/run/user/jean/gvfs/smb-share:server=servidor,share=webserver/ikro/includes/connect.php",
-		"/run/user/jean/gvfs/smb-share:server=servidor,share=webserver/ikro/index.php",
-		"/run/user/jean/gvfs/smb-share:server=servidor,share=webserver/ikro/sync.php",
-		"/media/cubWS/ikro/sync_classes/WEB_FAQ_USUARIO_PRODUTO.php",
-		"/media/cubWS/ikro/includes/Controller/ondecomprar_Controller.php",
-		"/media/cubWS/ikro/includes/View/publico/ondecomprar/index.php",
-		"/media/cubWS/ikro/includes/helpers.php",
-		"/media/cubWS/ikro/includes/View/publico/produtos/detalhes.php",
-		"/media/cubWS/ikro/sync_classes/WEB_TRANSP_PADRAO.php",
-		"/home/jean/projects/cub/ikro/includes/Controller/noticias_Controller.php",
-		"/home/jean/sound"
+		"/home/jean/projects/rpg/System/Object/String.h",
+		"/home/jean/projects/rpg/System/Object/String.cpp",
+		"/home/jean/projects/rpg/System/Application/Application.cpp",
+		"/home/jean/projects/rpg/System/DesignPattern/ListenerInterface.cpp",
+		"/home/jean/projects/rpg/System/DesignPattern/ListenerInterface.h",
+		"/home/jean/projects/rpg/System/DesignPattern/PolymorphicInterface.cpp",
+		"/home/jean/projects/rpg/System/DesignPattern/PolymorphicInterface.h",
+		"/home/jean/projects/rpg/System/DesignPattern/InterfaceListener.h",
+		"/home/jean/projects/rpg/System/Router/RouterInterface.h",
+		"/home/jean/projects/rpg/System/Modules/Cmd/RouterMgr.cpp",
+		"/home/jean/projects/rpg/System/DesignPattern/InterfacePolymorphic.h",
+		"/home/jean/projects/rpg/System/DesignPattern/InterfacePolymorphic.cpp",
+		"/home/jean/projects/rpg/System/DesignPattern/InterfaceListener.cpp"
 	],
 	"find":
 	{
@@ -412,6 +397,28 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"),\n",
+			"mRoot",
+			"mPluginsCfg",
+			"mResourcesCfg",
+			"mSceneMgr",
+			"mCamera",
+			"OgreApp",
+			"render",
+			"SHUTDOWN",
+			"cegui",
+			"BaseApplication",
+			"ITutorial02",
+			"BaseApplication",
+			"ControllerAbstract",
+			"__SYSOgreControllerAbstract__",
+			"(){}\n",
+			"RouterMgr",
+			"IntermediateTutorial6",
+			"Media",
+			"router",
+			"BaseController",
+			"cpp",
 			"p",
 			"Transpo",
 			"idModulo(\"escritorio\"",
@@ -517,29 +524,7 @@
 			"RS",
 			"ajax_loadBudgets",
 			"data",
-			"ajax_loa",
-			"carregar",
-			"json.php",
-			"count",
-			"getId",
-			"orcamentos",
-			"orcamenos",
-			"setCD",
-			"statusApp",
-			"Userapp",
-			"Object_date",
-			"statusesApp",
-			"getstatus",
-			"getstatusdi",
-			"setPreco",
-			"setPreceo",
-			"json.php",
-			"data",
-			"ORCAMENTOS",
-			"GETPRECO",
-			";\n",
-			"cidade",
-			"state"
+			"ajax_loa"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -547,6 +532,16 @@
 		"regex": false,
 		"replace_history":
 		[
+			"root",
+			"pluginsCfg",
+			"resourcesCfg",
+			"sceneMgr",
+			"camera",
+			"game",
+			"Main::ControllerDefault",
+			"ControllerDefault",
+			"Main::ControllerDefault",
+			"SystemOgre::ControllerAbstract",
 			"idModulo(\"institucional\"",
 			"/imagens/email/pedido/",
 			"pedido",
@@ -602,254 +597,18 @@
 			[
 				{
 					"buffer": 0,
+					"file": "Application.h",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 1071,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"auto_name": "",
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"indent": 1,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 0,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-								"php": "php"
-							},
-							"sublimelinter_fill_outlines": true,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_mark_style": "outline",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": true,
-							"sublimelinter_syntax_map":
-							{
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/home/jean/.config/sublime-text-2/Packages/User/snippet_cgetset.sublime-snippet",
-					"settings":
-					{
-						"buffer_size": 194,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								94,
-								94
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"indent": 1,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 0,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-								"php": "php"
-							},
-							"sublimelinter_fill_outlines": true,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_mark_style": "outline",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": true,
-							"sublimelinter_syntax_map":
-							{
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/XML/XML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 2,
-					"file": "System/Error/Error.h",
-					"settings":
-					{
-						"buffer_size": 292,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								240,
-								240
+								410,
+								410
 							]
 						],
 						"settings":
@@ -944,28 +703,29 @@
 							},
 							"sublimelinter_wrap_find": true,
 							"syntax": "Packages/C++/C++.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 218.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "/home/jean/.config/sublime-text-2/Packages/User/getSet.sublime-snippet",
+					"buffer": 1,
+					"file": "Application.cpp",
 					"settings":
 					{
-						"buffer_size": 540,
+						"buffer_size": 6044,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								67,
-								67
+								388,
+								388
 							]
 						],
 						"settings":
@@ -1059,7 +819,7 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/XML/XML.tmLanguage",
+							"syntax": "Packages/C++/C++.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
@@ -1089,18 +849,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
@@ -1124,6 +877,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"makefile.a",
+				"rpg/Makefile.am"
+			],
 			[
 				"ackpedi",
 				"includes/Controller/ack/ACKpedidos_Controller.php"
@@ -1255,6 +1012,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 305.0,
+	"side_bar_width": 291.0,
 	"status_bar_visible": true
 }

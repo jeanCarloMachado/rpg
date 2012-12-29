@@ -3,8 +3,9 @@
 
 #include <iostream>
 
-#include "Application/Bootstrap.h"
-#include "System/Language.h"
+#include "System/Application/Bootstrap/BootstrapInterface.h"
+#include "System/Language/Language.h"
+#include "System/Router/RouterMgrAbstract.h"
 
 namespace System
 {
@@ -16,16 +17,10 @@ namespace System
  	{
  	public:
  		virtual  int init()  = 0;
-		virtual  int run() =0;
+		virtual  int run(System::RouterMgrAbstract *router) =0;
 		virtual int setParams(char*** params) = 0;
-		virtual void bootstrap() 
-		{
-			/**
-			 * executa o bootstrap default
-			 */
-			Bootstrap bootstrap;
-			bootstrap.bootstrap();
-		}
+
+		virtual void bootstrap(System::BootstrapInterface *bootstrap) = 0;
 
 	protected:
 		char** params;

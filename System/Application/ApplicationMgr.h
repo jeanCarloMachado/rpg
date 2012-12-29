@@ -4,9 +4,11 @@
 #include <iostream>
 #include <string>
 
-#include "System/Language.h"
-#include "System/CMDApplication.cpp"
-#include "System/ApplicationInterface.h"
+#include "System/Language/Language.h"
+#include "System/Error/Error.h"
+#include "System/Modules/Ogre/Application.h"
+//#include "System/Modules/Cmd/Application.h"
+
 
 namespace System
 {
@@ -18,19 +20,25 @@ namespace System
 			OGRE
 		};
 
-		static ApplicationInterface* Factory(AppType type) 
+		static System::ApplicationAbstract* Factory(AppType type) 
  		{
- 			System::CMDApplication *obj;
+ 			System::ApplicationAbstract *obj;
 
  			switch(type)
  			{
  				case CMD:
-					obj = new CMDApplication();
+					//obj = new SystemCmd::Application();
+					break;
+
+				case OGRE:
+					obj = new SystemOgre::Application();
 					break;
 
 				default:
-					std::string exception  = System::Language::translate("não foi possível encontrar esse tipo");
-					throw exception;
+
+					std::string error = "não existe esse tipo de aplicação no framework";
+
+					throw error;
  			}
 			obj->init();
  			return obj;

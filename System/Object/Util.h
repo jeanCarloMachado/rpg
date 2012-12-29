@@ -14,14 +14,14 @@ namespace System
 	{
 	public:
 		template<class T>
-		static void dg(T & message)
+		static void dg(const T & message)
 		{
 			Util::sw(message);
 			exit(0);
 		}	
 
 		template<class T>
-		static void sw(T & message)
+		static void sw(const T & message)
 		{
 			cout << message << endl;
 		}
