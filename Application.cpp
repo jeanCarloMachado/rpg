@@ -133,7 +133,6 @@ bool Application::bootstrap()
     InputMgr* inputMgr = InputMgr::getInstance();
     this->mouse->setEventCallback(inputMgr);
     this->keyboard->setEventCallback(inputMgr);
-    //inputMgr->setStr("app definition");
     /**
      * registra a classe input mgr como 
      */
